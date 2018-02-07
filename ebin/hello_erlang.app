@@ -1,7 +1,7 @@
 {application, hello_erlang, [
   {description, ""},
   {vsn, "0.1.0"},
-  {modules, ['hello_erlang_app','hello_erlang_sup']},
+  {modules, ['hello_erlang_app','hello_erlang_sup','hello_handler']},
   {registered, []},
   {applications, [
     kernel,
