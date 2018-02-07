@@ -1,9 +1,3 @@
 PROJECT = hello_erlang
-PROJECT_DESCRIPTION = New project
-PROJECT_VERSION = 0.1.0
-
-include erlang.mk
-
-PROJECT = hello_erlang
 DEPS = cowboy
 include erlang.mk
